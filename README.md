@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hi this is some change for the exresice Ruby on Rails 3.7 
 
 Things you may want to cover:
 
