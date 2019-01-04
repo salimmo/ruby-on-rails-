@@ -15,12 +15,23 @@
           .navbar li {
             padding: 10px;
           }
+          
           .img-responsive{
             text-align: center;
+            width: 768px;
+            height: 560px;
+            margin-top: 10px;
           }
           .head{
             text-align: center;
             padding-top: 10px;
+          }
+          .footer{
+            display: block;
+            padding: 40px ;
+            margin-top: 15px;
+            background:#343a40!important;
+            color: #fff;
           }
         </style>
   </head>
@@ -34,7 +45,7 @@
       </ul>
     </nav>
     <%= yield %>
-    <footer>
+    <footer class="footer fixed-bottom">
       &copy; 2018 Bike Berlin
     </footer>
   </body>
