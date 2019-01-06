@@ -2,3 +2,39 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+  .navbar li {
+            padding: 10px;
+          }
+          
+          .img-responsive{
+            text-align: center;
+            width: 768px;
+            height: 560px;
+            margin-top: 10px;
+          }
+          .head{
+            text-align: center;
+            padding-top: 10px;
+          }
+          .footer{
+            display: block;
+            padding: 40px ;
+            margin-top: 15px;
+            background:#343a40!important;
+            color: #fff;
+          }
+
+
+        
+        h1{
+		text-align: center;
+		margin-top: 15px;
+	}
+	.pa{
+		text-align: center;
+	}
+
+	
+	.para{
+		padding: 0px 100px ;
+	}
