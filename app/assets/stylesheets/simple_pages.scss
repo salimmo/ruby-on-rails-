@@ -2,6 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+body{
+margin:0;
+}
+  .navbar{
+    width:100%;
+  }
+
   .navbar li {
             padding: 10px;
           }
@@ -9,7 +17,7 @@
           .img-responsive{
             text-align: center;
             width: 768px;
-            height: 560px;
+            height: 460px;
             margin-top: 10px;
           }
           .head{
