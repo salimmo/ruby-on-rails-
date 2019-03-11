@@ -1,7 +1,4 @@
 
- <div class="col-sm-4">
-      <a href ="#"><%= product.name %>Bike</a>
-     <!--/ <img src= "<%= product.image_url %>" width="260px" height="160px">-->
-      <p><%= product.description %></p>
-      <strong>$ 42</strong>
-    </div><!--/col -->
+  <% @products.each do |product| %>
+<%= render partial: "product", collection: @products %>
+  <% end %>

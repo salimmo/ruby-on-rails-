@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_01_20_173124) do
+ActiveRecord::Schema.define(version: 2019_03_11_200839) do
 
   create_table "orders", force: :cascade do |t|
     t.integer "user_id"
@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 2019_01_20_173124) do
     t.string "colour"
     t.string "invoke"
     t.string "active_record"
-    t.string "price"
+    t.integer "price"
   end
 
 end
